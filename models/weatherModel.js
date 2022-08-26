@@ -25,7 +25,7 @@ export const Weather = sequelize.define('locations', {
         allowNull: false
     },
     humidity: {
-        type: Sequelize.STRING,
+        type: Sequelize.INTEGER,
         allowNull: false
     },
     imageKey: {
